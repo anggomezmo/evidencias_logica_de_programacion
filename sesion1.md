@@ -4,7 +4,7 @@
 ## Sesión 1 
 
 
-# Actividad 1: Diagnóstico de aprendizajes previos (Trabajo grupal) :computer::coffee:
+# Actividad 1: Diagnóstico de aprendizajes previos (Trabajo grupal) 
 ## Objetivo: Desarrollar habilidades de pensamiento lógico y resolución de problemas.
 
 ## Ejercicio 1: El juego de la adivinanza

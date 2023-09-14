@@ -4,7 +4,7 @@
 ## Sesión 3 
 
 
-# Actividad 3: Ejercicios de operaciones básicas en Java. :computer: :coffee: 
+# Actividad 3: Ejercicios de operaciones básicas en Java. 
 1. Suma y multiplicación: Escribe un programa que solicite al usuario dos números enteros y luego imprima la suma y multiplicación de esos números.
 
 2. Resta y división: Escribe un programa que tome dos números enteros ingresados por el usuario y calcule la resta y división de esos números.
@@ -26,7 +26,7 @@
 ## Ejercicio 1.
 
 ```java
- package Ejercicios;
+package Ejercicios;
 import java.util.Scanner;
 public class Ejercicio1 {
 	public static void main(String[] args) {
