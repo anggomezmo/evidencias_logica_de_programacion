@@ -271,8 +271,9 @@ Se evalúa la opción digitada, y se procede:
 3. En el caso de introducir cualquier otro mensaje, se hará break del while y finalizará el programa.
 
 
+
 ```java
-   while(true) {
+while(true) {
 
       System.out.println("1. Agregar nota");  
       System.out.println("2. Mostrar notas");
@@ -290,6 +291,8 @@ Se evalúa la opción digitada, y se procede:
 
     }
 ```
+   
+
 
 
 
