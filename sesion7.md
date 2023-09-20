@@ -290,10 +290,15 @@ Se evalúa la opción digitada, y se procede:
 
     }
 ```
- ##   2.  Ejemplos de Array y Arraylist :
 
 
-### Ejemplo Array.
+
+
+
+ ##  2.  Ejemplos de Array y Arraylist :
+
+
+#### Ejemplo Array.
 
 El siguiente programa tiene como función dado un array de números enteros separar los números impares de los pares e imprimirlos por consola.
 ```java
@@ -320,10 +325,9 @@ public class EjemploArray {
     }
 }
 
-
 ```
 
-### Ejemplo ArrayList.
+#### Ejemplo ArrayList.
 
 Este ejemplo crea un arraylist y añade varios nombres de personas al array, verifica su tamaño, luego borra un miembro de la lista, y verifica nuevamente sus integrantes. Este ejemplo nos permite ver la flexibilidad que nos dan los Arraylist para manejar conjuntos de elementos de tamaño variable.
 
