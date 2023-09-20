@@ -4,8 +4,14 @@
 ## Sesión 7 
 
 
+
+# Integrantes: Angello Gómez - Brayan Ortega
+
 # Actividad: Ejecicios Array - ArrayList
 ## 1. En parejas, probar, analizar y explicar el funcionamiento de los siguientes ejemplos de Array y ArrayList.
+
+
+
 #### Ejemplo Array
 ```java
 import java.util.Arrays;
@@ -247,5 +253,124 @@ for(String n : notas) {
     }
 ```
 
+#### 3. Explicación del metodo main.
+
+Inicia con la creación de un ArrayList "notas", seguido de la creación de un objeto de la clase Scanner "scan" 
+```java
+ArrayList<String> notas = new ArrayList<>();
+    
+    Scanner scan = new Scanner(System.in);
+```
+Continúa con el uso de un bucle while, cuya función es actuar como menú de opciones.
+
+Dentro del while se nos enseñan 3 mensajes de opción para introducir por consola.
+
+Se evalúa la opción digitada, y se procede:
+1. En el caso de la opción 1 se hará llamado del metodo agregarNota para agregar una nueva nota.
+2. En el caso de la opción 2 se hara llamado del metodo mostrarNotas para enseñar las notas del array.
+3. En el caso de introducir cualquier otro mensaje, se hará break del while y finalizará el programa.
+```java
+   while(true) {
+
+      System.out.println("1. Agregar nota");  
+      System.out.println("2. Mostrar notas");
+      System.out.println("3. Salir");
+
+      int opcion = scan.nextInt();
+
+      if (opcion == 1) {
+        agregarNota(notas, scan);  
+      } else if (opcion == 2) {
+        mostrarNotas(notas);
+      } else {
+        break;
+      }
+
+    }
+
+```
+
 ##  2. Ejemplos de Array y Arraylist:
 
+
+### Ejemplo Array.
+
+El siguiente programa tiene como función dado un array de números enteros separar los números impares de los pares e imprimirlos por consola.
+```java
+public class EjemploArray {
+    public static void main(String[] args) {
+
+        // array de números enteros.
+        int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
+
+        System.out.println("Los números pares del array son: ");
+        for (int i : numeros) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println("");
+        System.out.println("Los números impares del array son: ");
+        for (int i : numeros) {
+            if (i % 2 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+
+    }
+}
+
+
+```
+
+### Ejemplo ArrayList.
+
+Este ejemplo crea un arraylist y añade varios nombres de personas al array, verifica su tamaño, luego borra un miembro de la lista, y verifica nuevamente sus integrantes. Este ejemplo nos permite ver la flexibilidad que nos dan los Arraylist para manejar conjuntos de elementos de tamaño variable.
+
+
+```java
+
+package arrayarraylist2;
+import java.util.ArrayList;
+
+public class ArrayArraylist2 {
+
+     public static void main(String[] args) {
+        // Declarar e inicializar un ArrayList de cadenas
+        ArrayList<String> nombres = new ArrayList<>();
+
+        // Agregar elementos al ArrayList
+        nombres.add("Juan");
+        nombres.add("María");
+        nombres.add("Pedro");
+        nombres.add("Ana");
+
+        // Imprimir la lista de nombres
+        System.out.println("Lista de nombres:");
+        for (String nombre : nombres) {
+            System.out.println(nombre);
+        }
+
+        // Obtener el tamaño del ArrayList
+        int tamaño = nombres.size();
+        System.out.println("Tamaño del ArrayList: " + tamaño);
+
+        // Eliminar un elemento del ArrayList
+        nombres.remove("Pedro");
+
+        // Imprimir la lista actualizada
+        System.out.println("Lista de nombres después de eliminar a Pedro:");
+        for (String nombre : nombres) {
+            System.out.println(nombre);
+        }
+        tamaño = nombres.size();  
+        System.out.println("Tamaño del ArrayList: " + tamaño);
+     }
+     
+}
+        
+
+        
+
+
+```
