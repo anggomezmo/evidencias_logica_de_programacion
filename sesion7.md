@@ -269,6 +269,8 @@ Se evalúa la opción digitada, y se procede:
 1. En el caso de la opción 1 se hará llamado del metodo agregarNota para agregar una nueva nota.
 2. En el caso de la opción 2 se hara llamado del metodo mostrarNotas para enseñar las notas del array.
 3. En el caso de introducir cualquier otro mensaje, se hará break del while y finalizará el programa.
+
+
 ```java
    while(true) {
 
@@ -287,10 +289,8 @@ Se evalúa la opción digitada, y se procede:
       }
 
     }
-
 ```
-
-##  2. Ejemplos de Array y Arraylist:
+ ##   2.  Ejemplos de Array y Arraylist :
 
 
 ### Ejemplo Array.
